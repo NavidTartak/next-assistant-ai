@@ -93,8 +93,8 @@ const Input = ({
                 ? borderErrorColor
                   ? borderErrorColor
                   : "border-red-600"
-                : "border-gray-300"
-            } border !outline-none w-full rounded-[11px] px-2 transition-all duration-200 placeholder:text-gray-500 disabled:bg-gray-100 disabled:text-gray-600 ${
+                : "border-gray-200 dark:border-slate-700"
+            } border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 dark:disabled:bg-slate-800 !outline-none leading-6 w-full resize-none rounded-[11px] px-2 py-1.5 transition-all duration-200 placeholder:text-gray-500 dark:placeholder:text-gray-400 disabled:bg-gray-100 disabled:text-gray-600 ${
               dir
                 ? dir === "rtl"
                   ? "placeholder:text-right"
@@ -147,8 +147,8 @@ const Input = ({
                 ? borderErrorColor
                   ? borderErrorColor
                   : "border-red-600"
-                : "border-gray-300"
-            } border !outline-none w-full rounded-[11px] px-2 transition-all duration-200 placeholder:text-gray-500 disabled:bg-gray-100 disabled:text-gray-600 ${
+                : "border-gray-200 dark:border-slate-700"
+            } border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 dark:disabled:bg-slate-800 !outline-none leading-6 w-full resize-none rounded-[11px] px-2 py-1.5 transition-all duration-200 placeholder:text-gray-500 dark:placeholder:text-gray-400 disabled:bg-gray-100 disabled:text-gray-600 ${
               dir
                 ? dir === "rtl"
                   ? "placeholder:text-right"
@@ -184,8 +184,8 @@ const Input = ({
               ? borderErrorColor
                 ? borderErrorColor
                 : "border-red-600"
-              : "border-gray-300"
-          } border !outline-none w-full rounded-[11px] px-2 transition-all duration-200 placeholder:text-gray-500 disabled:bg-gray-100 disabled:text-gray-600 ${
+              : "border-gray-200 dark:border-slate-700"
+          } border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 dark:disabled:bg-slate-800 !outline-none leading-6 w-full resize-none rounded-[11px] px-2 py-1.5 transition-all duration-200 placeholder:text-gray-500 dark:placeholder:text-gray-400 disabled:bg-gray-100 disabled:text-gray-600 ${
             dir
               ? dir === "rtl"
                 ? "placeholder:text-right"
