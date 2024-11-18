@@ -7,17 +7,44 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 9px; /* Width of the vertical scrollbar */
+  height: 9px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Dark Gray Thumb Color */
+  border-radius: 8px; /* Rounded corners for the thumb */
+  border: 2px solid white; /* Border around the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light Gray Track */
+  border-radius: 8px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb-horizontal {
+  background-color: #4b5563;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track-horizontal {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #888;
 }
 
 @layer utilities {
